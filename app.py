@@ -4,7 +4,8 @@ from PIL import Image
 import streamlit as st
 
 # Load the trained model
-model = tf.keras.models.load_model("currency_classifier.h5")
+model = tf.keras.models.load_model("my_model.keras")
+
 
 # Define class labels (Modify based on your dataset)
 class_labels = {0: "₹50", 1: "₹100", 2: "₹200", 3: "₹500", 4: "₹2000"}
